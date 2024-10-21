@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: black; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(fondo3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.title span {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.welcome {
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.disclaimer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+.warning {
+    margin-top: 10px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
